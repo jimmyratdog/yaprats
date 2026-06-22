@@ -464,3 +464,59 @@ button {
   align-items: center;
   margin-top: 6px;
 }
+
+@media (max-width: 700px) {
+  .topBar {
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 18px;
+    text-align: center;
+  }
+
+  .themeToggle {
+    justify-content: center;
+  }
+
+  .authButtons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .topicTitle {
+    font-size: 30px;
+  }
+
+  .commentsSection {
+    max-width: 100%;
+    margin: 24px auto;
+    padding: 0 12px;
+  }
+
+  .commentsBox {
+    height: 520px;
+    width: 100%;
+  }
+
+  .myYap,
+  .otherYap {
+    max-width: 82%;
+  }
+
+  .messageInput {
+    gap: 8px;
+  }
+
+  .messageInput input {
+    padding: 14px;
+    min-width: 0;
+  }
+
+  .messageInput button {
+    padding: 0 18px;
+  }
+
+  .charCount {
+    font-size: 11px;
+  }
+}
